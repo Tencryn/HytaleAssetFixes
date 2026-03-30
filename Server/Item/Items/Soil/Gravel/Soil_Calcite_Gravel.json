@@ -1,0 +1,57 @@
+{
+  "Parent": "Soil_Gravel",
+  "TranslationProperties": {
+    "Name": "server.items.Soil_Calcite_Gravel.name"
+  },
+  "Icon": "Icons/ItemsGenerated/Soil_Calcite_Gravel.png",
+  "Categories": [
+    "Blocks.Rocks"
+  ],
+  "Set": "Rock_Calcite",
+  "Recipe": {
+    "TimeSeconds": 0,
+    "Input": [
+      {
+        "ItemId": "Rubble_Calcite",
+        "Quantity": 3
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Farmingbench",
+        "Categories": [
+          "Decorative"
+        ]
+      }
+    ],
+    "OutputQuantity": 1
+  },
+  "BlockType": {
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Soils",
+        "DropList": "Soil_Calcite_Gravel"
+      }
+    },
+    "Textures": [
+      {
+        "All": "BlockTextures/Soil_Calcite_Gravel.png",
+        "Weight": 1
+      }
+    ],
+    "TransitionTexture": "BlockTextures/Transition_Soil_Calcite_Gravel.png"
+  },
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
+}

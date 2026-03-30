@@ -1,0 +1,46 @@
+{
+  "Parent": "Soil_Gravel",
+  "TranslationProperties": {
+    "Name": "server.items.Soil_Gravel_Sand.name"
+  },
+  "Icon": "Icons/ItemsGenerated/Soil_Gravel_Sand.png",
+  "Categories": [
+    "Blocks.Rocks"
+  ],
+  "Set": "Rock_Sandstone",
+  "Recipe": {
+    "TimeSeconds": 0,
+    "Input": [
+      {
+        "ItemId": "Rubble_Sandstone",
+        "Quantity": 3
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Farmingbench",
+        "Categories": [
+          "Decorative"
+        ]
+      }
+    ],
+    "OutputQuantity": 1
+  },
+  "BlockType": {
+    "Textures": [
+      {
+        "All": "BlockTextures/Soil_Gravel_Sand.png",
+        "Weight": 1
+      }
+    ],
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Soils",
+        "DropList": "Soil_Sand_Gravel"
+      }
+    },
+    "ParticleColor": "#c69f4f",
+    "TransitionTexture": "BlockTextures/Transition_Gravel_Sand.png"
+  }
+}

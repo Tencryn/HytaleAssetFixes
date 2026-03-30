@@ -1,0 +1,58 @@
+{
+  "Parent": "Soil_Gravel",
+  "TranslationProperties": {
+    "Name": "server.items.Soil_Pebbles.name"
+  },
+  "Icon": "Icons/ItemsGenerated/Soil_Pebbles.png",
+  "Categories": [
+    "Blocks.Rocks"
+  ],
+  "Set": "Rock_Stone",
+  "Recipe": {
+    "TimeSeconds": 0,
+    "Input": [
+      {
+        "ItemId": "Rubble_Marble",
+        "Quantity": 3
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Farmingbench",
+        "Categories": [
+          "Decorative"
+        ]
+      }
+    ],
+    "OutputQuantity": 1
+  },
+  "BlockType": {
+    "Textures": [
+      {
+        "All": "BlockTextures/Soil_Pebbles.png",
+        "Weight": 1
+      }
+    ],
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Soils",
+        "DropList": "Soil_Marble_Gravel"
+      }
+    },
+    "ParticleColor": "#cbc4a7",
+    "TransitionTexture": "BlockTextures/Transition_Soil_Pebbles.png"
+  },
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
+}

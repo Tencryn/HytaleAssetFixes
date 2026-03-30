@@ -1,0 +1,57 @@
+{
+  "Parent": "Soil_Gravel",
+  "Categories": [
+    "Blocks.Rocks"
+  ],
+  "Set": "Rock_Quartzite",
+  "TranslationProperties": {
+    "Name": "server.items.Soil_Quartzite_Gravel.name"
+  },
+  "Recipe": {
+    "TimeSeconds": 0,
+    "Input": [
+      {
+        "ItemId": "Rubble_Quartzite",
+        "Quantity": 3
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Farmingbench",
+        "Categories": [
+          "Decorative"
+        ]
+      }
+    ],
+    "OutputQuantity": 1
+  },
+  "BlockType": {
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Soils",
+        "DropList": "Soil_Quartzite_Gravel"
+      }
+    },
+    "Textures": [
+      {
+        "All": "BlockTextures/Soil_Quartzite_Gravel.png",
+        "Weight": 1
+      }
+    ],
+    "TransitionTexture": "BlockTextures/Transition_Soil_Quartzite_Gravel.png"
+  },
+  "Icon": "Icons/ItemsGenerated/Soil_Quartzite_Gravel.png",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
+}

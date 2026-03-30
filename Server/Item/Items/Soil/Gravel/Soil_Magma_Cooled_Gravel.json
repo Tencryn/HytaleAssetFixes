@@ -1,0 +1,58 @@
+{
+  "Parent": "Soil_Gravel",
+  "TranslationProperties": {
+    "Name": "server.items.Soil_Magma_Cooled_Gravel.name"
+  },
+  "Icon": "Icons/ItemsGenerated/Soil_Magma_Cooled_Gravel.png",
+  "Categories": [
+    "Blocks.Rocks"
+  ],
+  "Set": "Rock_Magma_Cooled",
+  "Recipe": {
+    "TimeSeconds": 0,
+    "Input": [
+      {
+        "ItemId": "Rubble_Magma_Cooled",
+        "Quantity": 3
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Farmingbench",
+        "Categories": [
+          "Decorative"
+        ]
+      }
+    ],
+    "OutputQuantity": 1
+  },
+  "BlockType": {
+    "ParticleColor": "#0d0a0a",
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Soils",
+        "DropList": "Soil_Magma_Cooled_Gravel"
+      }
+    },
+    "Textures": [
+      {
+        "All": "BlockTextures/Soil_Magma_Cooled_Gravel.png",
+        "Weight": 1
+      }
+    ],
+    "TransitionTexture": "BlockTextures/Transition_Soil_Magma_Cooled_Gravel.png"
+  },
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
+}
