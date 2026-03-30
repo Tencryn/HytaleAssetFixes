@@ -1,8 +1,8 @@
 {
   "Group": "Tencryn",
-  "Name": "MiscFixes",
-  "Version": "1.0.0",
-  "Description": "",
+  "Name": "AssetFixes",
+  "Version": "0.0.0",
+  "Description": "Collection of asset fixes",
   "Authors": [],
   "Website": "",
   "ServerVersion": "2026.03.26-92489d5e7",
