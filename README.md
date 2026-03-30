@@ -3,7 +3,18 @@
 This repository contains a variety of asset fixes for Hytale such as missing recipes.
 It is possible that some were intentionally left as creative only but make more sense to include into vanilla.
 
+This repository will be updated alongside pre-releases, and files may be removed or added with each update.
+
 **Feel free to use or change.**
+
+## How To Install
+- Download the repository as a zip
+- Extract the folder `HytaleAssetFixes-main` to `%appdata%\Roaming\Hytale\UserData\Mods` if on Windows
+- In-game, go to your world settings and enable the mod
+
+## How to update
+- Delete the mod entirely from your mods folder
+- Follow the installation steps
 
 ## Changes:
 ### Alchemy Bench
