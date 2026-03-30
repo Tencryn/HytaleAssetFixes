@@ -26,7 +26,7 @@ It is possible that some were intentionally left as creative only but make more 
 ### Gravel (Pebbles)
 - Added droplists for all variants
 - Added recipes for all variants in the Farmer's Workbench
-- Added recipes for all half variants in the Builder's Workbench
+- Added recipes for all **half** variants in the Builder's Workbench
 
 ### Redwood
 - Added `Wood_Redwood_Trunk` ResourceTypeId to `Wood_Redwood_Trunk`, exposing the plank recipes
