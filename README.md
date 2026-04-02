@@ -21,12 +21,14 @@ This repository will be updated alongside pre-releases, and files may be removed
 ### Chalk
 - Added `Chalk` Block Set
 - Added `FullBlocks_Chalk` and `FullBlocks_Chalk_Brick` Block Groups
+- Chalk now drops Chalk Cobble
 - Added recipe for `Rock_Chalk_Brick`
 
 ### Cooled Magma
 - Added `Magma_Cooled` Block Set
 - Added `FullBlocks_Magma_Cooled` and `FullBlocks_Magma_Cooled_Brick` Block Groups
 - Added `Rock_Magma_Cooled` ResourceTypeId to `Rock_Magma_Cooled`, exposing the recipes
+- Cooled Magma now drops Cooled Magma Cobble
 - Added recipe for `Rock_Magma_Cooled_Half`
 
 ### Stone
