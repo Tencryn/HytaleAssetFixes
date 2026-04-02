@@ -1,5 +1,5 @@
 # HytaleAssetFixes
-### Version: pre-release/2026.03.26-92489d5e7
+### Version: 2026.03.26-89796e57b
 This mod contains a variety of asset fixes for Hytale such as missing recipes.
 It is possible that some were intentionally left as creative only but make more sense to include into vanilla.
 
