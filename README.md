@@ -1,5 +1,5 @@
 # HytaleAssetFixes
-### Version: 2026.03.26-89796e57b
+### Version: pre-release/2026.04.02-51731a32a
 This mod contains a variety of asset fixes for Hytale such as missing recipes.
 It is possible that some were intentionally left as creative only but make more sense to include into vanilla.
 
@@ -17,8 +17,6 @@ This repository will be updated alongside pre-releases, and files may be removed
 - Follow the installation steps
 
 ## Changes:
-### Alchemy Bench
-- Fixed broken translation for seeds
 
 ### Chalk
 - Added `Chalk` Block Set
@@ -41,6 +39,4 @@ This repository will be updated alongside pre-releases, and files may be removed
 - Added droplists for all variants
 - Added recipes for all variants in the Farmer's Workbench
 - Added recipes for all **half** variants in the Builder's Workbench
-
-### Redwood
-- Added `Wood_Redwood_Trunk` ResourceTypeId to `Wood_Redwood_Trunk`, exposing the plank recipes
+- Gravel, Shale Gravel, and Marble Gravel are no longer craftable with **any** rubble
